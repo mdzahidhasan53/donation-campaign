@@ -6,7 +6,7 @@ const CategoryDetails = () => {
     console.log(categories);
     const { id } = useParams();
     const foundCategory = categories.find((category) => category.id == id);
-    const { title, img, description, price } = foundCategory;
+    const { title, img, description, price, font_color } = foundCategory;
     return (
         <div className="card bg-base-100 shadow-xl container mx-auto mt-12 lg:w-[1100px]">
             <figure><img className="w-full lg:w-[1100px] lg:h-[500px]" src={img} alt="" /></figure>
@@ -15,7 +15,7 @@ const CategoryDetails = () => {
                     
             </div>
             <div className="static lg:relative lg:-mt-32">
-            <button className="btn btn-warning mt-10 ml-6 text-white normal-case ">Donate ${price} </button>
+            <button style={{background:`${font_color}`}} className="btn mt-10 ml-6 text-white normal-case ">Donate ${price} </button>
             </div>
             
             <div className="card-body md:w-[1100px] mt-10 lg:mt-4">
