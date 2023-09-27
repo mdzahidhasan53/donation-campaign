@@ -32,7 +32,7 @@ const router = createBrowserRouter([
       {
         path:"/category/:id",
         element:<CategoryDetails></CategoryDetails>,
-        loader: ()=> fetch('./categories.json'),
+        loader: ()=> fetch('/categories.json'),
       }
     ]
   },
