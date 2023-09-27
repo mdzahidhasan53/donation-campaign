@@ -38,7 +38,7 @@
       {
         "id":"4",
         "img": "https://i.ibb.co/BGXV98Q/Food.png",
-        "img_rectangle": "https://i.ibb.co/tpRnbT4/Rectangle-Food.png",
+        "img_rectangle": "https://i.postimg.cc/KvzRXdcG/Rectangle-4287-2.png",
         "title": "Better Food for Everyone",
         "category_title": "Food",
         "category_bg_color": "#F8714726",
@@ -50,7 +50,7 @@
       {
         "id":"5",
         "img": "https://i.ibb.co/BGXV98Q/Food.png",
-        "img_rectangle": "https://i.ibb.co/tpRnbT4/Rectangle-Food.png",
+        "img_rectangle": "https://i.postimg.cc/KvzRXdcG/Rectangle-4287-2.png",
         "title": "Better Food for Everyone",
         "category_title": "Food",
         "category_bg_color": "#F8714726",
@@ -134,9 +134,9 @@
       {
         "id":"12",
         "img": "https://i.ibb.co/BGXV98Q/Food.png",
-        "img_rectangle": "https://i.ibb.co/tpRnbT4/Rectangle-Food.png",
-        "title": "Food",
-        "category_title": "Better Food for Everyone",
+        "img_rectangle": "https://i.postimg.cc/KvzRXdcG/Rectangle-4287-2.png",
+        "title": "Better Food for Everyone",
+        "category_title": "Food",
         "category_bg_color": "#F8714726",
         "font_color": "#F87147",
         "text_bg_color": "#F8714733",
