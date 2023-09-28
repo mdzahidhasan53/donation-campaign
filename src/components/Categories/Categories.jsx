@@ -5,7 +5,7 @@ import Category from "../Category/Category";
 const Categories = () => {
     const [categories, setCategories] = useState([]);
     
-
+    
     useEffect(()=>{
         fetch('categories.json')
         .then(res=> res.json())
@@ -25,4 +25,4 @@ const Categories = () => {
     );
 };
 
-export default Categories;
+export default  Categories;

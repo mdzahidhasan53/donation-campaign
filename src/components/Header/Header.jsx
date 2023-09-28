@@ -31,6 +31,15 @@ const Header = () => {
             };
         }}
           to="/statistic">Statistic</NavLink></li>
+        <li><NavLink
+         style={({ isActive }) => {
+            return {
+                fontWeight: isActive ? "bold" : "",
+                background: isActive ? "white" : "white",
+                color: isActive ? "red" : "black",
+            };
+        }}
+          to="/blogs">Blogs</NavLink></li>
 
 
     </>
